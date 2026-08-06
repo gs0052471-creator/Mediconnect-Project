@@ -27,32 +27,6 @@ Node.js & Express.js
 
 MongoDB & Mongoose
 
-
-
-# Project Structure
-Plaintext
-mediconnect/
-├── client/                      # Frontend React Application
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── AddDoctorForm.jsx
-│   │   │   ├── AddDoctorForm.css
-│   │   │   ├── DoctorCard.jsx
-│   │   │   ├── DoctorCard.css
-│   │   │   ├── DoctorsList.jsx
-│   │   │   └── DoctorsList.css
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-│   └── package.json
-│
-└── server/                      # Backend Express Application
-    ├── controllers/
-    ├── models/
-    ├── routes/
-    ├── server.js
-    └── package.json
-
     
 
 # Getting Started
@@ -63,11 +37,6 @@ MongoDB (Local instance or MongoDB Atlas cluster)
 
 Installation
 Clone the repository:
-
-Bash
-git clone https://github.com/your-username/mediconnect.git
-cd mediconnect
-Set up the Backend Server:
 
 Bash
 cd server
