@@ -43,8 +43,8 @@ export default function AddDoctorForm({ onDoctorAdded, editingDoctor, onCancelEd
 
     const isEdit = Boolean(editingDoctor);
     const url = isEdit
-      ? `http://localhost:5000/api/doctors/${editingDoctor._id}`
-      : 'http://localhost:5000/api/doctors';
+      ? `https://mediconnect-project.onrender.com/api/doctors/${editingDoctor._id}`
+      : 'https://mediconnect-project.onrender.com/api/doctors';
     const method = isEdit ? 'PUT' : 'POST';
 
     try {

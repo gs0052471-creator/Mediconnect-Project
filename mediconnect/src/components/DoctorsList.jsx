@@ -8,7 +8,7 @@ export default function DoctorsList({ onSelectDoctor, selectedDoctorId, onEditDo
 
   const fetchDoctors = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/doctors');
+      const response = await fetch('https://mediconnect-project.onrender.com/api/doctors');
       if (response.ok) {
         const data = await response.json();
         setDoctors(data);
